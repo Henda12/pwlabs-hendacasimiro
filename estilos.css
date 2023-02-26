@@ -1,0 +1,94 @@
+* {
+    font-family: monospace;
+}
+
+table {
+    background-color: rgb(255, 255, 255);
+    border: 0ch;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+tr {
+    background-color: brown;
+    border: 0ch;
+    color: white;
+}
+
+td {
+    background-color: rgb(215, 206, 206);
+    color: black;
+}
+
+th {
+    background-color: rgb(0, 0, 0);
+    border: 0ch;
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    font-family: monospace;
+}
+
+h3 {
+    font-family: monospace;
+}
+
+#menu-horizontal {
+    padding: 0;
+    list-style-type: none;
+    background-color: rgb(0, 0, 0);
+}
+
+#menu-horizontal li {
+    display: inline;
+    padding: 0px;
+}
+
+#menu-horizontal li a {
+    text-decoration: none;
+    display: inline;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    display: inline-block;
+    padding: 20px;
+    transition: background .8s;
+}
+
+#menu-horizontal li a:hover {
+    background-color: rgb(255, 0, 115);
+}
+
+#tabelada {
+    font-size: xx-large;
+    background-color: rgb(255, 255, 255);
+    border: 0ch;
+}
+footer {
+    background: #ffab62;
+    width: 100%;
+    height: 50px;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    line-height: 50px;
+}
+#flutuar{
+    background: #ffab62;
+    width: 100%;
+    height: 50px;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    line-height: 50px;
+}
+#poema{
+    color: blue;
+    font-style: italic;
+    text-align: center;
+}

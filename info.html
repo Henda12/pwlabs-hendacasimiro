@@ -7,44 +7,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Henda Casimiro">
     <meta name="description" content="Website sobre Luanda">
-    <title>Luanda</title>
+    <link rel="stylesheet" href="estilos.css">
+    <title>Informação</title>
 </head>
 
 <body>
-    <h1>CIDADE DE LUANDA</h1>
-    <img src="Images/cq5dam.thumbnail.cropped.1500.844.jpeg" alt="Luanda">
-    <br>
-    <a href="index.html">INTRODUÇÃO</a>
-    <a href="local.html">LOCALIZAÇÃO</a>
-    <a href="multimedia.html">MULTIMÉDIA</a>
-    <b><a href="#">INFORMAÇÃO</a></b>
-    <br>
-
-    <h1>Pontos turisticos de Luanda</h1>
-    <table border="1">
-        <hhead>
-            <tr>
-                <th>Museu Nacional da Escravatura</th>
-            </tr>
-        </hhead>
-        <hbody>
-            <tr>
-                <th>Museu da Moeda</th>
-            
-            </tr>
-            <tr>
-                <th>Cidade Alta</th>
-            </tr>
-            <tr>
-                <th>Avenida 4 de Fevereiro</th>
-            </tr>
-            <tr>
-                <th>Ilha do Mussulo</th>
-            </tr>
-        </hbody>
-        <tr></tr>
-    </table>
-    
+    <header>
+        <h1>CIDADE DE LUANDA</h1>
+        <figure>
+            <figcaption>
+                <details title="Esta imagem ilustra uma paisagem de Luanda">
+                    <summary>Uma Breve apresentação em fotografia da cidade de Luanda</summary>
+                    <img src="images/cq5dam.thumbnail.cropped.1500.844.jpeg" alt="Luanda">
+                </details>
+            </figcaption>
+        </figure>
+        <br>
+    </header>
+    <nav>
+        <ul id="menu-horizontal">
+            <li><a href="index.html">🏡 HOME</a></li>
+            <li><a href="local.html">📍 LOCALIZAÇÃO</a></li>
+            <li><a href="multimedia.html"> 📷 MULTIMÉDIA</a></li>
+            <li><a href="info.html">⚠️ INFORMAÇÃO</a></li>
+            <li><a href="quizz.html">⛳️ QUIZZ</a></li>
+            <li><a href="html5-css.html">🔱 HTML5 & CSS</a></li>
+        </ul>
+    </nav>
+    <main>
+        <br>
+        <h1>Pontos turisticos de Luanda</h1>
+        <table border="1" id="tabelada">
+            <hhead>
+                <tr>
+                    <th colspan="2">Pontos turisticos de Luanda</th>
+                    <th rowspan="2">Local</th>
+                </tr>
+            </hhead>
+            <hbody>
+                <tr>
+                    <td>Museu da Moeda</td>
+                    <td>Museu Nacional da Escravatura</td>
+                </tr>
+                <tr>
+                    <td>Cidade Alta</td>
+                    <td>Avenida 4 de Fevereiro</td>
+                    <td>Luanda</td>
+                </tr>
+                <tr>
+                    <td>Ilha do Mussulo</td>
+                    <td>Parque da Independência</td>
+                    <td>Luanda</td>
+                </tr>
+            </hbody>
+            <tr></tr>
+        </table>
+    </main>
+    <footer>Henda Casimiro | a22100633 | Universidade Lusófona | 2023</footer>
 </body>
 
 </html>

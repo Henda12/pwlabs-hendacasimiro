@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Henda Casimiro">
+    <meta name="description" content="Website sobre Luanda">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Quizz</title>
+</head>
+
+<body>
+    <header>
+        <h1>CIDADE DE LUANDA</h1>
+        <figure>
+            <figcaption>
+                <details title="Esta imagem ilustra uma paisagem de Luanda">
+                    <img src="images/cq5dam.thumbnail.cropped.1500.844.jpeg" alt="Luanda">
+                </details>
+            </figcaption>
+        </figure>
+        <br>
+    </header>
+
+    <nav>
+        <ul id="menu-horizontal">
+            <li><a href="index.html">🏡 HOME</a></li>
+            <li><a href="local.html">📍 LOCALIZAÇÃO</a></li>
+            <li><a href="multimedia.html"> 📷 MULTIMÉDIA</a></li>
+            <li><a href="info.html">⚠️ INFORMAÇÃO</a></li>
+            <li><a href="quizz.html">⛳️ QUIZZ</a></li>
+            <li><a href="html5-css.html">🔱 HTML5 & CSS</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h3>Quizz</h3>
+        <p>Aqui saberemos se tens bons conhecimentos sobre a cidade de Luanda</p>
+        <form method="POST" action="mailto: hendacasimiro12@gmail.com" enctype="multipart/form-data">
+            <fieldset>
+                <legend>Quizz sobre Luanda, City quizz, Mostre que conhece Luanda</legend>
+                <fieldset>
+                    <legend>Info</legend>
+                    <input type="text" placeholder="Insira o seu nome" id="nome">
+                    <input type="text" placeholder="Insira o seu Apelido" id="apelido">
+                    <input type="email" placeholder="Insira o seu Email" id="nome">
+                </fieldset>
+                <fieldset>
+                    <legend>Perguntas</legend>
+                    <ol>
+                        <li><label>Quem Descobriu a Cidade de <b>Luanda</b> ? </label><input type="text"></li><br>
+                        <li><label>Em que dia, mês e ano foi descoberta a cidade de <b>luanda</b> ? </label><input
+                                type="date" name="date" id="data"></li><br>
+                        <li><label>Viana é o maior município de <b>Luanda</b> ?</label></li><br>
+                        <input type="radio" name="opcao" value="sim"> Sim
+                        <input type="radio" name="opcao" value="nao"> Não
+                        <br>
+                        <br>               
+                    </ol>
+                    <textarea name="comentario" id="comenta" cols="30" rows="10" placeholder="Escreva aqui as suas críticas e sugestões... "></textarea><br><br>
+                    <input type="submit">
+                </fieldset>
+            </fieldset>
+        </form>
+    </main>
+    <footer>Henda Casimiro | a22100633 | Universidade Lusófona | 2023</footer>
+</body>
+
+</html>
